@@ -52,20 +52,20 @@ const sentence = 'The quick brown fox jumps over the lazy dog.';
 
 // console.log(sentence.at(-200));//undefined
 
-// //Comparing with other mentods
-// const myString = sentence
+//Comparing with other mentods
+const myString = 'The quick brown fox jumps over the lazy dog.';
 
-// // Using length property and charAt() method
-// const lengthWay = myString.charAt(myString.length - 2);
-// console.log(lengthWay); // 'g'
+// Using length property and charAt() method
+const lengthWay = myString.charAt(myString.length - 2);
+console.log(lengthWay); // 'g'
 
-// // Using slice() method
-// const sliceWay = myString.slice(-2, -1);
-// console.log(sliceWay); // 'g'
+// Using slice() method
+const sliceWay = myString.slice(-2, -1);
+console.log(sliceWay); // 'g'
 
-// // Using at() method
-// const atWay = myString.at(-2);
-// console.log(atWay); // 'g'
+// Using at() method
+const atWay = myString.at(-2);
+console.log(atWay); // 'g'
 
 /**
  * charAt(index)
