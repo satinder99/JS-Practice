@@ -22,3 +22,13 @@
 #pink{
     background-color: pink;
 }
+
+.btn{
+    width: 40%;
+    margin:2px
+}
+
+#myNav, .centerMe{
+    display:flex;
+    justify-content: center;
+}
