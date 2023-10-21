@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="./css/guessTheNumber.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="btn" onclick="window.location.href='../index.html'">Home</button>
+        <button class="btn" target="_blank" onclick = 'window.location.href="https://github.com/satinder99/JS-Practice/tree/main/Project01"'>Github</button>
+    </nav>
+    <form>
+        <div id="page1">
+            <div class="centerMe margin">
+                <h1>Guess The Number</h1>
+            </div>
+            <div class="centerMe margin">
+                <button id="startMyGame" value="startGame">Start the Game</button>
+            </div>
+        </div>
+        <div id = "page2">
+            <div class="centerMe margin">
+                <h1>Guess The Number</h1>
+            </div>
+            <div class="centerMe margin">
+                    <span id="message"></span>
+            </div>
+            <!-- <div class="centerMe margin">
+                    <span id="number"></span>
+            </div> -->
+            <div class="centerMe margin">
+                <input type="text" id="inputValue">
+            </div>
+            <div class="centerMe margin">
+                <input type ="submit" value="Submit">
+                <div data-role = "hint" data-hint-text="12">
+                    <img src="./asset/hint.png" height="30px" id="hint" >
+                </div>
+            </div>
+            
+            <div class = "centerMe margin">
+                Previous Guess : <span id="prevGuess"></span>
+            </div>
+            
+            <div class = "centerMe margin">
+                Remaining Turns : <span id="turnRemaining"></span>
+            </div>
+
+            <div class="navbar">
+                <div class="centerMe margin">
+                    <input type ="submit" value="Reset">
+                </div>
+                <div class="centerMe margin">
+                    <input type ="submit" value="Quit">
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="centerMe margin">
+                <span id="gameOverMessage"></span>
+            </div>
+            <div class="centerMe margin">
+                <span id="number"></span>
+            </div>
+            <div class="centerMe margin">
+                <button class="btn" value="Play Again">Play Again</button>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="./scripts/guessTheNumber.js"></script>
+</html>

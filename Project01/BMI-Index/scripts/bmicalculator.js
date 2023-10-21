@@ -7,9 +7,9 @@ function calc(){
     let result=document.querySelector('#result');
     result.textContent = `BMI INDEX : ${myBMI}`
     if(myBMI<18.5 || myBMI>22){
-        result.style.border = "2px dotted red";
+        result.style.border = "2px solid red";
     }
     else{
-        result.style.border = "2px dotted green";
+        result.style.border = "2px solid green";
     }
 }
