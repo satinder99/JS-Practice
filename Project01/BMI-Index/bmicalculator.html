@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="./css/bmicalculator.css">
+</head>
+<body>
+    <nav id="myNav">
+        <button class = "btn" onclick="window.location.href = '../index.html'">Home</button>
+        <button class = "btn" target="_blank" onclick = 'window.location.href="https://github.com/satinder99/JS-Practice/tree/main/Project01"' >Github</button>
+     </nav>
+    <div class = "centerMe">
+        <h1> BMI CALCULATOR</h1>
+    </div>
+    <div class = "centerMe">
+        <label class="margin" for="height">Height in Meter</label>
+        <input class="margin"type = "text" id="height">
+    </div>
+    <div class = "centerMe">
+        <label class="margin"for="weight">Weight in KG</label>
+        <input class="margin"type = "text" id="weight">
+    </div>
+
+    <div class = "centerMe margin">
+        <button onclick="calc()">Calculate</button>
+    </div>
+
+    <div class="centerMe margin">
+        NOTE : 
+        <ul>
+            <li>Under Weight - if index is < 18.5</li>
+            <li>Normal - if index is between 18.5 and 22</li>
+            <li>Over Weight - if index is > 22</li>
+        </ul>
+    </div>
+
+    <p class="centerMe" id="result"></p>
+</body>
+<script src="./scripts/bmicalculator.js"></script>
+</html>

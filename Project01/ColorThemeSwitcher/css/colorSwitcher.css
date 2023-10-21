@@ -5,14 +5,19 @@
     /* border-radius: 50%; */
     border-style: solid;
     border-image: linear-gradient(rgb(0,143,104), rgb(250,224,66),rgb(230,40,60),rgb(150,30,255)) 1;
-    display: inline-block;
-    /* background: linear-gradient(to right, red, purple);; */
+    /* display: inline-block; */
+    /* background: linear-gradient(red, purple); */
     text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }
 
-#grey{
+/* #grey{
     background-color: grey;
-}
+} */
 #darkgoldenrod{
     background-color: darkgoldenrod;
 }
